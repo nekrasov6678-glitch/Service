@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экран-Service - Ремонт телефонов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Экран-Service</h1>
+                        <p>Ремонт телефонов и гаджетов</p>
+                    </div>
+                </div>
+                <div class="phone-large">
+                    <a href="tel:+78001234567">8 (800) 123-45-67</a>
+                    <div class="phone-label">Звоните круглосуточно!</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <h2><span>Вернём к жизни</span> ваш гаджет</h2>
+                    <p>Профессиональный ремонт телефонов любой сложности. Быстро, качественно, с гарантией 90 дней.</p>
+                    <a href="#contact" class="btn">Записаться на ремонт</a>
+                    
+                    <ul class="problems-list">
+                        <li><i class="fas fa-check-circle"></i> Разбит экран</li>
+                        <li><i class="fas fa-check-circle"></i> Не работает камера</li>
+                        <li><i class="fas fa-check-circle"></i> Не заряжается</li>
+                    </ul>
+                </div>
+                <div class="banner-image">
+                    <img src="https://www.slashgear.com/img/gallery/why-you-should-never-use-wd-40-to-fix-a-cracked-phone-screen/l-intro-1725556326.jpg" alt="Ремонт телефона" class="phone-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prices">
+        <div class="container">
+            <h2 class="section-title">Цены на ремонт</h2>
+            <div class="table-container">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Устройство</th>
+                            <th>Неисправность</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>iPhone 11-15</td>
+                            <td>Замена экрана</td>
+                            <td>от 4 990 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Samsung Galaxy S20-S23</td>
+                            <td>Замена дисплея</td>
+                            <td>от 5 490 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Любая модель</td>
+                            <td>Замена аккумулятора</td>
+                            <td>от 1 990 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Все смартфоны</td>
+                            <td>Не работает камера</td>
+                            <td>от 2 490 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Любой телефон</td>
+                            <td>Не заряжается</td>
+                            <td>от 1 490 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>Планшеты</td>
+                            <td>Ремонт после попадания влаги</td>
+                            <td>от 3 990 ₽</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2 class="section-title">Наши преимущества</h2>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Быстро (от 30 мин)</h3>
+                    <p>Многие ремонты выполняем в вашем присутствии. Срочный ремонт за 30-60 минут.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Гарантия 90 дней</h3>
+                    <p>Даем расширенную гарантию на все виды работ и установленные комплектующие.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Оригинальные детали</h3>
+                    <p>Используем только качественные оригинальные и совместимые запчасти.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="container">
+            <h2 class="section-title">Где мы?</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Адрес</h3>
+                            <p>г. Москва, ул. Техническая, д. 15, стр. 2</p>
+                            <p class="small-text">Вход со стороны двора, 2 этаж, офис 207</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Время работы</h3>
+                            <p><strong>Пн-Пт:</strong> 9:00 - 21:00</p>
+                            <p><strong>Сб-Вс:</strong> 10:00 - 20:00</p>
+                            <p class="small-text">Без перерыва на обед</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Контакты</h3>
+                            <p><strong>Телефон:</strong> 8 (800) 123-45-67</p>
+                            <p><strong>Email:</strong> info@ekran-service.ru</p>
+                            <p class="small-text">Ответим на все ваши вопросы</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-subway"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Как добраться</h3>
+                            <p><strong>Метро:</strong> Технопарк (10 мин пешком)</p>
+                            <p><strong>Автобусы:</strong> 67, 142, 195 (ост. "Улица Техническая")</p>
+                            <p class="small-text">Ориентир - синяя вывеска с логотипом</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h2>Экран-Service</h2>
+                            <p>Вернём к жизни ваш гаджет</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">Профессиональный ремонт телефонов, планшетов и другой техники с 2015 года.</p>
+                </div>
+                
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+78001234567">8 (800) 123-45-67</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@ekran-service.ru">info@ekran-service.ru</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Москва, ул. Техническая, д. 15</span>
+                    </div>
+                </div>
+                
+                <div class="footer-hours">
+                    <h3>Время работы</h3>
+                    <p><strong>Пн-Пт:</strong> 9:00 - 21:00</p>
+                    <p><strong>Сб-Вс:</strong> 10:00 - 20:00</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 «Экран-Service». Все права защищены.</p>
+                <p>Сайт создан в учебных целях</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', function(e) {
+            e.preventDefault();
+            const contactSection = document.querySelector('.location');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        document.querySelectorAll('a[href^="tel"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const phoneNumber = this.getAttribute('href').replace('tel:', '');
+                alert(`Имитация звонка по номеру ${phoneNumber}`);
+            });
+        });
+        
+        document.querySelectorAll('.advantage-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
